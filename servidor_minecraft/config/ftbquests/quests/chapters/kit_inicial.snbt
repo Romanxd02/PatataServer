@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kit_inicial"
+	group: ""
+	id: "54280EC64FC4AF93"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"con esto tenes lo basico para iniciar y el logro para no morir de hambre mucha suerte"
+			"{image:minecraft:textures/particle/damage.png width:100 height:100 align:center}"
+		]
+		icon: {
+			Count: 1
+			id: "sophisticatedbackpacks:copper_backpack"
+			tag: {
+				inventorySlots: 45
+				upgradeSlots: 1
+			}
+		}
+		id: "09712EB020248003"
+		rewards: [
+			{
+				advancement: "jujutsucraft:advancement_insect"
+				criterion: ""
+				id: "32D2FD47894375F2"
+				type: "advancement"
+			}
+			{
+				count: 5
+				id: "72C4E83296D2DCF4"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}
+			{
+				id: "7D671D3BCDF96456"
+				item: {
+					Count: 1
+					id: "jujutsucraft:slaughter_demon"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "12616DEA7D27141C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+						Power: 0.25d
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "021DC6E2DDFAFF9F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+						Power: 0.375d
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "266863CE7B69A1C6"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "604859C857303959"
+				item: "jujutsucraft:profession_changer"
+				type: "item"
+			}
+			{
+				id: "4533C59611129C8F"
+				item: "jujutsucraft:cursed_technique_changer"
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "6CD7882B39B08AAF"
+			item: "minecraft:dirt"
+			type: "item"
+		}]
+		title: "Kit inicial"
+		x: 1.5d
+		y: 0.0d
+	}]
+	title: "Kit inicial"
+}

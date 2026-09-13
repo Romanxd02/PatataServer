@@ -1,0 +1,98 @@
+{
+  "overall": {
+    "defaultCeMax": {
+      "GRADE_4": 800.0,
+      "GRADE_3": 1000.0,
+      "SEMI_GRADE_2": 1600.0,
+      "GRADE_2": 2000.0,
+      "SEMI_GRADE_1": 2400.0,
+      "GRADE_1": 2800.0,
+      "SPECIAL_GRADE": 4000.0
+    },
+    "defaultCeRegen": {
+      "GRADE_4": 0.0,
+      "GRADE_3": 0.0,
+      "SEMI_GRADE_2": 0.0,
+      "GRADE_2": 0.0,
+      "SEMI_GRADE_1": 0.0,
+      "GRADE_1": 0.0,
+      "SPECIAL_GRADE": 0.0
+    },
+    "defaultStrength": {
+      "GRADE_4": 1.0,
+      "GRADE_3": 1.0,
+      "SEMI_GRADE_2": 1.0,
+      "GRADE_2": 1.0,
+      "SEMI_GRADE_1": 1.0,
+      "GRADE_1": 1.0,
+      "SPECIAL_GRADE": 1.0
+    },
+    "defaultDefense": {
+      "GRADE_4": 1.0,
+      "GRADE_3": 1.0,
+      "SEMI_GRADE_2": 1.0,
+      "GRADE_2": 1.0,
+      "SEMI_GRADE_1": 1.0,
+      "GRADE_1": 1.0,
+      "SPECIAL_GRADE": 1.0
+    },
+    "defaultSpeed": {
+      "GRADE_4": 1.0,
+      "GRADE_3": 1.0,
+      "SEMI_GRADE_2": 1.0,
+      "GRADE_2": 1.0,
+      "SEMI_GRADE_1": 1.0,
+      "GRADE_1": 1.0,
+      "SPECIAL_GRADE": 1.0
+    },
+    "defaultBlackFlashChance": 0.2,
+    "ceControlEnabled": true,
+    "leveling": {
+      "enabled": false,
+      "maxLevel": 50,
+      "pointsPerLevel": 3,
+      "startingPoints": 0,
+      "xpLevelUpEnabled": true,
+      "xpLevelCostBase": 5.0,
+      "xpLevelCostPerLevel": 1.0,
+      "baseValue": {
+        "0": 200.0,
+        "1": 0.0,
+        "2": 1.0,
+        "3": 1.0,
+        "4": 1.0,
+        "5": 5.0
+      },
+      "perPoint": {
+        "0": 50.0,
+        "1": 1.0,
+        "2": 0.05,
+        "3": 0.05,
+        "4": 0.03,
+        "5": 1.0
+      },
+      "gradeLevel": {
+        "GRADE_4": 1,
+        "GRADE_3": 8,
+        "SEMI_GRADE_2": 15,
+        "GRADE_2": 22,
+        "SEMI_GRADE_1": 30,
+        "GRADE_1": 38,
+        "SPECIAL_GRADE": 46
+      }
+    },
+    "defaultClashingPower": {
+      "GRADE_4": 11.0,
+      "GRADE_3": 13.0,
+      "SEMI_GRADE_2": 16.0,
+      "GRADE_2": 18.0,
+      "SEMI_GRADE_1": 20.0,
+      "GRADE_1": 22.0,
+      "SPECIAL_GRADE": 29.0
+    },
+    "domainExpansionLockGrade": "SEMI_GRADE_2",
+    "rctLockGrade": "GRADE_4",
+    "domainAmpLockGrade": "NONE",
+    "simpleDomainLockGrade": "NONE"
+  }
+}

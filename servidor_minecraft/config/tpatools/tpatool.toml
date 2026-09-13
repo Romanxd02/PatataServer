@@ -1,0 +1,73 @@
+#Cooldown time in seconds between home invites
+#Range: 0 ~ 300
+homeInviteCooldown = 0
+#Timeout time in seconds for home invites
+#Range: 1 ~ 300
+homeInviteTimeout = 30
+
+[tpa]
+	#Cooldown time for TPA commands in milliseconds
+	#Range: 0 ~ 9223372036854775807
+	cooldown = 3000
+	#Timeout for TPA requests in ticks
+	#Range: > 0
+	timeout = 600
+	#Default language for messages (e.g., 'en_us', 'zh_cn')
+	language = "es_es"
+	#Maximum number of homes per player
+	#Range: > 1
+	max_homes = 2
+	#TPA cooldown time in seconds
+	#Range: > 0
+	cooldown_seconds = 60
+	#TPA wait time in seconds
+	#Range: > 0
+	wait_seconds = 30
+
+[debug]
+	#Enable debug logging for detailed output
+	debugMode = false
+
+[teleport]
+	#Allow teleporting ridden entities with players
+	allowTeleportRideEntity = false
+	#If teleport destination is blocked, search for a safe nearby position
+	safeTeleport = true
+
+	[teleport.database]
+		#Storage type: 'json' or 'mysql'
+		type = "json"
+		#MySQL server host
+		host = "localhost"
+		#MySQL server port
+		#Range: 1 ~ 65535
+		port = 3306
+		#MySQL database name
+		database = "tpatools"
+		#MySQL username
+		username = "root"
+		#MySQL password
+		password = ""
+
+	[teleport.rtp]
+		#RTP teleport range in blocks (default: 100000)
+		#Range: 1000 ~ 1000000
+		scope = 1000
+		#RTP cooldown time in seconds (default: 30)
+		#Range: 0 ~ 3600
+		cooldown_time = 600
+		#Maximum attempts to find a safe location (default: 50)
+		#Range: 1 ~ 200
+		max_attempts = 50
+		#Minimum Y level for RTP (default: -64)
+		#Range: -64 ~ 320
+		min_y = -64
+		#Maximum Y level for RTP (default: 320)
+		#Range: -64 ~ 320
+		max_y = 320
+
+	[teleport.warp]
+		#Maximum number of warps per player
+		#Range: 1 ~ 100
+		max_warps = 3
+

@@ -1,0 +1,14 @@
+
+["Colony Settings"]
+	#Number of colonies to generate (Max 20)
+	#Range: 1 ~ 20
+	colonyCount = 5
+	#Radius of the colonies in blocks (Between 100 and 10 000)
+	#Range: 100 ~ 10000
+	colonyRadius = 500
+	#Maximum X and Z coordinate for random placement
+	#Range: 1000 ~ 1000000
+	maxCoordinate = 5000
+	#Names of the colonies
+	colonyNames = ["Tokyo No. 1 Colony", "Sendai Colony", "Tokyo No. 2 Colony", "Sakurajima Colony", "Lake Gosho Colony"]
+

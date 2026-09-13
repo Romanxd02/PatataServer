@@ -1,0 +1,80 @@
+
+[Poison]
+	#Enable or disable poison fatigue.
+	poison_fatigue = true
+	#Enable or disable additional poison damage.
+	poison_damage = true
+	#Damage (In Current HP Percent) Cursed Poison does every 5 seconds.
+	#Range: 0 ~ 100
+	cursed_poison_damage = 5
+	#Damage (In Current HP Percent) Death Painting Blood does every 5 seconds.
+	#Range: 0 ~ 100
+	death_painting_damage = 5
+	#Fatigue value applied by Death Painting Blood every 2 seconds.
+	#Range: 0 ~ 6000
+	death_painting_fatigue = 100
+	#Fatigue value applied by Cursed Poison every 2 seconds.
+	#Range: 0 ~ 6000
+	cursed_poison_fatigue = 40
+	#Fatigue value applied by vanilla poison every 2 seconds.
+	#Range: 0 ~ 6000
+	vanilla_poison_fatigue = 20
+	#Fatigue value applied by vanilla wither every 2 seconds.
+	#Range: 0 ~ 6000
+	vanilla_wither_fatigue = 20
+
+[Skills]
+	#The time in seconds it takes for Cursed Sense to come off cooldown. Changing to values near or below 30 may cause unexpected effects.
+	#Range: > 1
+	cursed_sense_cooldown = 120
+	#How much Cursed Energy it costs to extend your domain.
+	#Range: > 0
+	domain_extension_cost = 1250
+	#How long in seconds a closed domain is extended for when using Domain Extension.
+	#Range: > 0
+	domain_extension_time = 180
+	#How long in seconds an open domain is extended for when using Domain Extension.
+	#Range: > 0
+	domain_extension_time_open = 300
+	#How long in seconds the cooldown is for a Closed Domain Extension.
+	#Range: > 0
+	domain_extension_cooldown = 300
+	#How long in seconds the cooldown is for an Open Domain Extension.
+	#Range: > 0
+	domain_extension_cooldown_open = 400
+	#RCT Output cost is per-tick, multiply by 20 to get cost per second per entity.
+	#Range: > 0
+	rct_output_cost = 10
+	#How far away you can apply RCT Output to entities.
+	#Range: 0 ~ 256
+	rct_output_range = 2
+
+[Soul]
+	#This value is multiplied by your Maximum HP to get your Maximum Soul amount.
+	#Range: 0.0 ~ 10000.0
+	soul_multiplier = 50.0
+	#How much Soul you regenerate per second after not taking damage for a period of time.
+	#Range: 0.0 ~ 100000.0
+	soul_regeneration = 100.0
+	#How long you need to go without taking Soul Damage in order to begin regenerating Soul.
+	#Range: > 0
+	soul_regeneration_time = 120
+	#Multiply this value by the damage you take from any Soul Cleaving physical attack from a mob or player to get how much soul you lose from it.
+	#Range: 0.0 ~ 1000.0
+	soul_cleaving_multipler = 0.5
+	#Multiply this value by the damage you take from any Soul Cleaving Skill (such as Jacob's Ladder) to get how much soul you lose from it.
+	#Range: 0.0 ~ 1000.0
+	soul_skill_multiplier = 5.0
+
+[Output]
+	#Whether or not your output goes up every time you hit a Black Flash, or just once.
+	black_flash_stacking = false
+	#Enable or disable output boosts from Black Flash.
+	black_flash_boost_enabled = true
+	#How much landing a Black Flash boosts your output by.
+	#Range: 0 ~ 1000
+	black_flash_boost = 20
+	#How long your Output is boosted for after landing a Black Flash.
+	#Range: > 0
+	black_flash_boost_time = 30
+

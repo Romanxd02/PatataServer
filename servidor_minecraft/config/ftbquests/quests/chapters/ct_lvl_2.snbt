@@ -1,0 +1,698 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ct_lvl_2"
+	group: ""
+	id: "6FC1FC5D4A8FA275"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Para acceder al legado de Yuki Tsukumo y dominar la potencia de su técnica, debes demostrar que puedes manejar una fuerza capaz de aplastar cualquier amenaza. Cumple con los objetivos de combate y destruye al hechicero kenjaku"
+				"{image:jujutsucraft:textures/mob_effect/star_rage.png width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:tsukmo_garuda"
+				tag: {
+					CursePower: 10.0d
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "283A10215BEB1FA1"
+			rewards: [{
+				id: "3153E51B7D7808D2"
+				item: {
+					Count: 1
+					id: "jujutsucrafts:tsukmo_garuda"
+					tag: {
+						CursePower: 10.0d
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Domina la masa virtual y aplasta a tus rivales."
+			tasks: [
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2"
+					criterion: ""
+					id: "751E5D7CA82FC99F"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:skill_tsukumo"
+					criterion: ""
+					id: "5EEC2C51DFAC394D"
+					type: "advancement"
+				}
+			]
+			title: "Masa Virtual: Furia Estelar"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Hace mil años, Ryomen Sukuna gobernó la era de la hechicería con crueldad e invencibilidad absolutas. Para reclamar una fracción de su poder y obtener sus reliquias sagradas, debes demostrar que no eres una simple presa. Empuña tu arma, derrama la sangre de tus enemigos y junta las ofrendas necesarias para soportar el veneno de su energía maldita. Solo quienes abrazan la carnicería son dignos de portar el legado del Rey de las Maldiciones."
+				"{image:bindingvow:textures/screens/ms.png width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:sukuna_finger"
+				tag: {
+					CursePower: 5.0d
+				}
+			}
+			id: "1BBC73E76C78BF20"
+			rewards: [
+				{
+					id: "51A2217D55188F3D"
+					item: "jjsh:sukuna_combo_book"
+					type: "item"
+				}
+				{
+					id: "369DDF11E5FEFBB6"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:cape_sukuna_chestplate"
+						tag: {
+							GeckoLibID: 4L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E6E3D9728A06F31"
+					item: {
+						Count: 1
+						id: "jujutsucraft:sukuna_body_chestplate"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DDF03216ECF6E12"
+					item: {
+						Count: 1
+						id: "jujutsucraft:sukuna_finger"
+						tag: {
+							CursePower: 5.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17E6F637269E0E10"
+					item: "jjsh:water_walking"
+					type: "item"
+				}
+				{
+					id: "5CAB4A8EC5F868AA"
+					item: {
+						Count: 1
+						id: "jujutsucraft:supreme_martial_solution"
+						tag: {
+							CursePower: 10.0d
+							Damage: 0
+							Knockback: -0.25d
+							Power: 0.1d
+							Reach: -0.125d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0338AB230BF0F652"
+					item: {
+						Count: 1
+						id: "jujutsucraft:hiten"
+						tag: {
+							CursePower: 10.0d
+							Damage: 0
+							Power: 0.25d
+							Range: 0.25d
+							Reach: 0.25d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "518633F2B9363E8F"
+					item: "jjsh:heteromorphic_body"
+					type: "item"
+				}
+			]
+			subtitle: "Demuestra tu valía y somete a tus enemigos."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_sukuna"
+					criterion: ""
+					id: "50037B2E3C2A6A7C"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "4996B5E26E313A87"
+					type: "advancement"
+				}
+			]
+			title: "El Despertar del Rey Malevolente"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Llegó la hora de manifestar una energía maldita incalculable y desatar el verdadero poder de la Reina de las Maldiciones. Adéntrate en el combate, elimina a las amenazas que acechan la zona y reúne las ofrendas necesarias para consolidar tu enlace. Copia el poder de tus rivales, domina la batalla y demuestra que no existe fuerza capaz de detenerte."
+				"{image:jujutsucraft:item/icon_rika_armor_head width:50 height:50 align:center}"
+			]
+			icon: "jujutsucraft:uniform_okkotsu_chestplate"
+			id: "705BCCABA797B457"
+			rewards: [
+				{
+					id: "2BB46AF00E9C2A30"
+					item: "jjsh:water_walking"
+					type: "item"
+				}
+				{
+					id: "35D67075C9496CED"
+					item: "jjsh:air_jump"
+					type: "item"
+				}
+				{
+					id: "2EF69973EB4EED24"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:honoyagi"
+						tag: {
+							COOLDOWN_TICKS: 0.0d
+							CursePower: 7.0d
+							Power: 0.125d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E6D525B372FD745"
+					item: {
+						Count: 1
+						id: "golden_age_jujutsu:steel_hand"
+						tag: {
+							CursePower: 5.0d
+							Power: 0.25d
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Desata el poder de la Reina y manifiesta una fuerza incalculable."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_copy"
+					criterion: ""
+					id: "7F10D5762CD00312"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "685037D690B5FCFE"
+					type: "advancement"
+				}
+			]
+			title: "Amor Desmedido/The cursed strongest"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"El trabajo es una maldición, pero la ineficiencia es aún peor. Analiza a cada objetivo, divide sus líneas en una proporción exacta de 7 a 3 y asesta un golpe crítico en el punto de quiebre para resolver los pendientes con la menor cantidad de movimientos posible. Reúne las provisiones necesarias y completa la jornada antes de que marque el reloj; de lo contrario, no quedará más remedio que entrar en horas extras y desatar un flujo de energía mucho más agresivo para poder ir a descansar en paz."
+				"{image:jujutsucraft:item/icon_clothes_nanami_head width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:nanami_knife"
+				tag: {
+					CursePower: 1.0d
+					Power: 0.25d
+				}
+			}
+			id: "7A7439CFF7869FA9"
+			rewards: [
+				{
+					id: "7BA08C51F01F6EBC"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:nanami_knife"
+						tag: {
+							CursePower: 1.0d
+							Power: 0.25d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0C0ECFBC9A332B"
+					item: {
+						Count: 1
+						id: "bindingvow:overtime"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Encuentra el punto débil y concluye la tarea a tiempo."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_nanami"
+					criterion: ""
+					id: "56CEB76B7FD561AB"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_3"
+					criterion: ""
+					id: "0FABB643A85BF21A"
+					type: "advancement"
+				}
+			]
+			title: "Proporción 7:3: Horas Extras"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Entre el cielo y la tierra, la victoria está garantizada. Activa la barrera del Infinito para que ningún peligro alcance a rozar tu piel y deja que los Seis Ojos procesen la estructura misma del espacio. Reúne los recursos necesarios para armonizar la masa del Azul con la repulsión del Rojo hasta distorsionar la realidad. Al final, nada puede tocarte cuando estás en la cima; después de todo, eres el más fuerte."
+				"{image:bindingvow:item/new_piskel_12 width:50 height:50 align:center}"
+			]
+			icon: "jujutsucraft:sunglasses_helmet"
+			id: "049C16929C4641E1"
+			rewards: [
+				{
+					advancement: "jujutsucraft:skill_cursed_technique_reversal_red"
+					criterion: ""
+					id: "574F82FD2560ADE9"
+					type: "advancement"
+				}
+				{
+					id: "56DE1479228B467A"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:shutendouji_barrel"
+						tag: {
+							CursePower: 7.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Que nada te toque y que la realidad se pliegue ante ti."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_gojo"
+					criterion: ""
+					id: "11B8A83EF1B3FA1C"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "6979079F3ECB1640"
+					type: "advancement"
+				}
+			]
+			title: "El Único Honorado: Infinito"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Nacido del odio más podrido y del asco que los humanos sienten entre sí, para ti la vida de los mortales no es más que un juego y sus cuerpos, simple plastilina. Toca la esencia misma de sus almas, retuerce su carne hasta convertirlos en aberraciones grotescas y disfruta el sonido de su desesperación mientras se arrastran. Reúne los insumos necesarios para perfeccionar la Mutación Inactiva y demuestra lo divertido que es romper a un ser humano desde adentro."
+				"{image:minecraft:textures/particle/soul_1.png width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:human_stock"
+				tag: {
+					CursePower: 1.0d
+				}
+			}
+			id: "06992C09CD2DDEB5"
+			rewards: [
+				{
+					advancement: "jujutsucraft:skill_polymorphic_soul_isomer"
+					criterion: ""
+					id: "3232028B062FB570"
+					type: "advancement"
+				}
+				{
+					count: 64
+					id: "3DBA61ACF61E7DF7"
+					item: {
+						Count: 1
+						id: "jujutsucraft:human_stock"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4839C0EFB675F182"
+					item: {
+						Count: 1
+						id: "jujutsucraft:human_stock"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Moldea sus almas, deforma su existencia y ríete de su sufrimiento."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_mahito"
+					criterion: ""
+					id: "5CAB87694978BEF3"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "5B9FC88BCE99B2B9"
+					type: "advancement"
+				}
+			]
+			title: "Mutación Inactiva: Juguetes de Carne"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"No necesitas un linaje sagrado ni técnicas complejas para hacer temblar al enemigo; solo tus propios nudillos y una determinación imposible de romper. Domina el ligero desfase de tu Puño Divergente y ajusta el pulso de la energía maldita hasta hacer estallar el Destello Negro en la millonésima de segundo exacta. Reúne los insumos para la batalla, encaja los golpes sin vacilar y demuestra que estás dispuesto a ser el engranaje que muela a cualquier maldición. Mientras puedas seguir de pie, tus puños seguirán cambiando el destino."
+				"{image:bindingvow:textures/screens/blfl.png width:50 height:50 align:center}"
+			]
+			id: "3CCDC3E2A52F0F3C"
+			rewards: [
+				{
+					id: "30FF8E7C9B6E64CE"
+					item: {
+						Count: 1
+						id: "golden_age_jujutsu:blood_gauntlets"
+						tag: {
+							CursePower: 3.0d
+							Power: 0.25d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B8A9B3DE6027739"
+					item: {
+						Count: 1
+						id: "jujutsucraft:sukuna_finger"
+						tag: {
+							CursePower: 5.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "04091C48405C2E2A"
+					item: {
+						Count: 1
+						id: "jujutsucraft:death_painting"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "694330EFCC4724D4"
+					item: {
+						Count: 1
+						id: "jjsh:air_jump"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D545048067ED317"
+					item: {
+						Count: 1
+						id: "jjsh:water_walking"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4E0AC44C37AB6798"
+					item: "bindingvow:black_flash_combos"
+					type: "item"
+				}
+				{
+					id: "18344D0EBAD5EE85"
+					item: "bindingvow:divergent_fist"
+					type: "item"
+				}
+			]
+			subtitle: "Siente la chispa del espacio, soporta el dolor y no des ni un paso atrás."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_itadori"
+					criterion: ""
+					id: "7C9D86E91DE2FADA"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "643F2E0D63586C0C"
+					type: "advancement"
+				}
+			]
+			title: "La Voluntad del Engranaje"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Llegó la hora de tomar el control absoluto sobre el flujo de la sangre y convertirla en una navaja letal. Adéntrate en el combate, elimina a las amenazas que acechan la zona y reúne las ofrendas necesarias para refinar las técnicas de la Manipulación Sanguínea. Demuestra una precisión Implacable y atraviesa cualquier defensa con una fuerza imparable."
+				"{image:jujutsucrafts:item/wingking_choso width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:blood_edge"
+				tag: {
+					CursePower: 3.0d
+				}
+			}
+			id: "7BB77EA86BC7B1CC"
+			rewards: [
+				{
+					id: "58D2804778EDAD44"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:blood_edge"
+						tag: {
+							CursePower: 3.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5486925FF009D188"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:blood_edge_claw"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20229062EF36D97E"
+					item: {
+						Count: 1
+						id: "jujutsucraft:death_painting"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F1326FD598F01BC"
+					item: {
+						Count: 1
+						id: "golden_age_jujutsu:blood_gauntlets"
+						tag: {
+							Power: 0.25d
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "jujutsucraft:skill_supernova_itadori"
+					criterion: ""
+					id: "70CC08AA82871494"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:skill_blood_wave"
+					criterion: ""
+					id: "1A026A4EF699130D"
+					type: "advancement"
+				}
+			]
+			subtitle: "Domina el flujo carmesí y atraviesa a tus rivales."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_blood_manipulation"
+					criterion: ""
+					id: "77796AEEE248DF32"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2"
+					criterion: ""
+					id: "1922AAD1A39D85F1"
+					type: "advancement"
+				}
+			]
+			title: "Lazos sanguineos que perforan"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "5EBB6F46089F7280"
+			rewards: [
+				{
+					id: "08B2C932D5970498"
+					item: "jjsh:water_walking"
+					type: "item"
+				}
+				{
+					id: "7DA8A3D932559338"
+					item: "jjsh:air_jump"
+					type: "item"
+				}
+				{
+					id: "68971208DFE8B0F6"
+					item: "jujutsucraft:item_master_reverse_cursed_technique"
+					type: "item"
+				}
+				{
+					id: "666E05C708F3FF63"
+					item: "jujutsucraft:item_master_simple_domain"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CFF1824CE52FBE8"
+					table_id: 8637470078713788189L
+					type: "choice"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_1_semi"
+				criterion: ""
+				id: "0AF56DBC2880C506"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Llegó el momento de cambiar las reglas del combate y desorientar por completo a tus rivales. Enfréntate a las amenazas de la zona, elimina a tus objetivos y reúne las ofrendas necesarias para dominar el Boogie Woogie. Demuestra una fuerza física implacable, cambia de posición en un parpadeo y aplasta a cualquiera que se interponga en tu camino."
+				"{image:jujutsucraftv:textures/particle/particle_todo_face.png width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:vibra_slap"
+				tag: {
+					CursePower: 3.0d
+				}
+			}
+			id: "397C91CE7BEEFB30"
+			rewards: [
+				{
+					id: "61EF9D6F3E2A4F03"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:vibra_slap"
+						tag: {
+							CursePower: 3.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "486B1189B2F75B02"
+					item: {
+						Count: 1
+						id: "bindingvow:gambling_on_the_sparks"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Confunde a tus enemigos y domina el campo de batalla."
+			tasks: [
+				{
+					advancement: "jujutsucraft:sorcerer_grade_3"
+					criterion: ""
+					id: "1555376B747C964A"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "01FF46DEBBD57F09"
+					item: {
+						Count: 1
+						id: "jujutsucraft:muscular_body_chestplate"
+						tag: {
+							DistributionItem: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7B75CF8B31FAFD10"
+					item: {
+						Count: 1
+						id: "jujutsucraft:pendant_todo_aoi"
+						tag: {
+							DistributionItem: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ritmo de Batalla: Boogie Woogie"
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	title: "CT LVL 2"
+}

@@ -1,0 +1,21 @@
+{
+  "publicHomesByOwner": {},
+  "playerHomes": {
+    "fb16b5c0-8334-3fa6-aede-1e304749e56f": {
+      "nose": {
+        "position": {
+          "x": -876.4976335497404,
+          "y": 66.0,
+          "z": 885.422239789316,
+          "xRot": 12.299954,
+          "yRot": 2.3932495,
+          "dimension": {
+            "f_135804_": "minecraft",
+            "f_135805_": "overworld"
+          }
+        },
+        "sharedPlayers": []
+      }
+    }
+  }
+}

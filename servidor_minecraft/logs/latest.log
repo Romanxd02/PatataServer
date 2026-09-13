@@ -1,0 +1,311 @@
+[13Sep2026 20:57:52.084] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Sep2026 20:57:52.089] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure
+[13Sep2026 20:57:53.015] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Sep2026 20:57:53.096] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/PatataServer/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Sep2026 20:57:53.743] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PatataServer/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2026 20:57:53.744] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PatataServer/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2026 20:57:53.746] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PatataServer/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2026 20:57:53.748] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PatataServer/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Sep2026 20:57:54.690] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/PatataServer/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[13Sep2026 20:57:54.691] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 58 dependencies adding them to mods collection
+[13Sep2026 20:57:59.105] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Sep2026 20:57:59.161] [main/ERROR] [mixin/]: Mixin config fabric-item-api-v1.client.mixins.json does not specify "minVersion" property
+[13Sep2026 20:57:59.241] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[13Sep2026 20:57:59.248] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[13Sep2026 20:57:59.530] [main/ERROR] [mixin/]: Mixin config jujutsucraftutility.mixins.json does not specify "minVersion" property
+[13Sep2026 20:57:59.660] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.mixins.json does not specify "minVersion" property
+[13Sep2026 20:57:59.665] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
+[13Sep2026 20:58:00.175] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13Sep2026 20:58:00.178] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[13Sep2026 20:58:00.203] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Sep2026 20:58:00.701] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.83+mc1.20.1: 110 options available, 0 override(s) found
+[13Sep2026 20:58:00.702] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[13Sep2026 20:58:00.720] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[13Sep2026 20:58:00.815] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 186 options available, 0 override(s) found
+[13Sep2026 20:58:00.979] [main/WARN] [mixin/]: Reference map 'extraquests.mixins.refmap.json' for extraquests.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Sep2026 20:58:01.010] [main/INFO] [jjcnbtfix/]: [JJCNBTFIX] Mixin plugin loaded. packetfixer detected: true
+[13Sep2026 20:58:01.107] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Sep2026 20:58:01.332] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinPlugin loaded package="com.example.examplemod.mixin"
+[13Sep2026 20:58:01.674] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[13Sep2026 20:58:01.734] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
+[13Sep2026 20:58:02.034] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2026 20:58:02.093] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2026 20:58:02.872] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[13Sep2026 20:58:02.872] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[13Sep2026 20:58:02.872] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin
+[13Sep2026 20:58:02.874] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[13Sep2026 20:58:02.875] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[13Sep2026 20:58:02.875] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor
+[13Sep2026 20:58:03.326] [main/WARN] [mixin/]: Error loading class: net/sixik/sdmshop/shop/entry_types/CommandEntryType (java.lang.ClassNotFoundException: net.sixik.sdmshop.shop.entry_types.CommandEntryType)
+[13Sep2026 20:58:03.336] [main/WARN] [mixin/]: @Mixin target net.sixik.sdmshop.shop.entry_types.CommandEntryType was not found extraquests.mixins.json:SDMShopMixin
+[13Sep2026 20:58:04.814] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.CursedTechniqueGetoProcedureMixin" target="net.mcreator.jujutsucraft.procedures.CursedTechniqueGetoProcedure" apply=true optional=false
+[13Sep2026 20:58:04.815] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.GetoHappySetProcedureMixin" target="net.mcreator.jujutsucraft.procedures.GetoHappySetProcedure" apply=true optional=false
+[13Sep2026 20:58:04.816] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.JujutsucraftVGetPlayerSelectCurseTechniqueNameProcedureMixin" target="net.mcreator.jujutsucraftv.procedures.GetPlayerSelectCurseTechniqueNameProcedure" apply=true optional=true
+[13Sep2026 20:58:04.817] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.JujutsucraftVModItemsCompatMixin" target="net.mcreator.jujutsucraftv.init.JujutsucraftvModItems" apply=true optional=true
+[13Sep2026 20:58:04.819] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.JujutsucraftVSetupAnimationsCompatMixin" target="net.mcreator.jujutsucraftv.procedures.SetupAnimationsProcedure" apply=true optional=true
+[13Sep2026 20:58:04.822] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.OTechniqueNameProcedureMixin" target="net.mcreator.jujutsucraft.procedures.OTechniqueNameProcedure" apply=true optional=false
+[13Sep2026 20:58:04.824] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.SkillUzumakiMiniProcedureDebugMixin" target="net.mcreator.jujutsucraft.procedures.SkillUzumakiMiniProcedure" apply=true optional=false
+[13Sep2026 20:58:04.825] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.SkillUzumakiProcedureDebugMixin" target="net.mcreator.jujutsucraft.procedures.SkillUzumakiProcedure" apply=true optional=false
+[13Sep2026 20:58:04.826] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.Test2ProcedureDebugMixin" target="net.mcreator.jujutsucraft.procedures.Test2Procedure" apply=true optional=false
+[13Sep2026 20:58:04.828] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.UtilityJujutsuModCaptureMixin" target="com.utilityjujutsumod.UtilityJujutsuMod" apply=false optional=true
+[13Sep2026 20:58:04.829] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.UtilityJujutsuModInvoker" target="com.utilityjujutsumod.UtilityJujutsuMod" apply=false optional=true
+[13Sep2026 20:58:04.830] [main/INFO] [com.example.examplemod.debug.GetoBootDiagnostics/]: [GetoBoot] MixinDecision mixin="com.example.examplemod.mixin.UtilityJujutsuModAddSpiritMixin" target="com.utilityjujutsumod.UtilityJujutsuMod" apply=false optional=true
+[13Sep2026 20:58:04.843] [main/WARN] [mixin/]: Error loading class: net/mcreator/jujutsucraftv/procedures/GetPlayerSelectCurseTechniqueNameProcedure (java.lang.ClassNotFoundException: net.mcreator.jujutsucraftv.procedures.GetPlayerSelectCurseTechniqueNameProcedure)
+[13Sep2026 20:58:04.848] [main/WARN] [mixin/]: Error loading class: net/mcreator/jujutsucraftv/init/JujutsucraftvModItems (java.lang.ClassNotFoundException: net.mcreator.jujutsucraftv.init.JujutsucraftvModItems)
+[13Sep2026 20:58:04.852] [main/WARN] [mixin/]: Error loading class: net/mcreator/jujutsucraftv/procedures/SetupAnimationsProcedure (java.lang.ClassNotFoundException: net.mcreator.jujutsucraftv.procedures.SetupAnimationsProcedure)
+[13Sep2026 20:58:05.243] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[13Sep2026 20:58:05.244] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[13Sep2026 20:58:05.477] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13Sep2026 20:58:06.417] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13Sep2026 20:58:07.210] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.32 s after launch)
+[13Sep2026 20:58:07.709] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[13Sep2026 20:58:07.710] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[13Sep2026 20:58:08.780] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2026 20:58:08.781] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2026 20:58:10.322] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3092 milliseconds
+[13Sep2026 20:58:10.833] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ClientboundCustomPayloadPacketMixin->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[13Sep2026 20:58:10.834] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ClientboundCustomPayloadPacketMixin->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[13Sep2026 20:58:11.611] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2026 20:58:11.611] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[13Sep2026 20:58:13.433] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ServerGamePacketListenerImplMixin->@ModifyConstant::packetfixer$tick(J)J with priority 1000, already redirected by connectivity.mixins.json:ServerPlayNetHandlerMixin->@ModifyConstant::playTimeout(J)J with priority 1001
+[13Sep2026 20:58:15.162] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[13Sep2026 20:58:15.265] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[13Sep2026 20:58:15.290] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[13Sep2026 20:58:15.464] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: almirionapi, class com.jjcaddons.almirionapi.AlmirionApiMod
+java.lang.NoSuchMethodException: com.jjcaddons.almirionapi.AlmirionApiMod.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3587) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2756) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23283!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2026 20:58:15.607] [modloading-worker-0/INFO] [jjcnbtfix/]: [JJCNBTFIX] v1.0.4 loaded. Patches Mcreator NBT bugs in:
+[13Sep2026 20:58:15.610] [modloading-worker-0/INFO] [jjcnbtfix/]: [JJCNBTFIX]   * jujutsucraft (always)
+[13Sep2026 20:58:15.610] [modloading-worker-0/INFO] [jjcnbtfix/]: [JJCNBTFIX]   * jjkprisonrealmmodrework (if installed)
+[13Sep2026 20:58:15.610] [modloading-worker-0/INFO] [jjcnbtfix/]: [JJCNBTFIX] Plus a catch-all on Connection.exceptionCaught for
+[13Sep2026 20:58:15.610] [modloading-worker-0/INFO] [jjcnbtfix/]: [JJCNBTFIX]   - leftover NBT/network NPEs (any phase)
+[13Sep2026 20:58:15.611] [modloading-worker-0/INFO] [jjcnbtfix/]: [JJCNBTFIX]   - netty buffer-underrun IOOBE during HANDSHAKE/LOGIN/CONFIG
+[13Sep2026 20:58:15.771] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[13Sep2026 20:58:15.783] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Sep2026 20:58:15.787] [modloading-worker-0/INFO] [com.convallyria.hugestructureblocks.HugeStructureBlocksMod/]: Huge Structure Blocks is now making your structure blocks even bigger!
+[13Sep2026 20:58:15.787] [modloading-worker-0/INFO] [com.convallyria.hugestructureblocks.HugeStructureBlocksMod/]: New structure size = 512
+[13Sep2026 20:58:15.807] [modloading-worker-0/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ServerLoginPacketListenerImplMixin->@ModifyConstant::packetfixer$tick(I)I with priority 1000, already redirected by connectivity.mixins.json:ServerLoginNetHandlerMixin->@ModifyConstant::loginTimeout(I)I with priority 1001
+[13Sep2026 20:58:15.866] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[13Sep2026 20:58:15.999] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[13Sep2026 20:58:16.000] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[13Sep2026 20:58:16.002] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[13Sep2026 20:58:16.003] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[13Sep2026 20:58:16.004] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[13Sep2026 20:58:16.128] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[13Sep2026 20:58:16.131] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[13Sep2026 20:58:16.134] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[13Sep2026 20:58:16.138] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[13Sep2026 20:58:16.140] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[13Sep2026 20:58:16.156] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[13Sep2026 20:58:16.173] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[13Sep2026 20:58:16.188] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[13Sep2026 20:58:16.188] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[13Sep2026 20:58:16.192] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbxmodcompat
+[13Sep2026 20:58:16.200] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin does not have required mod ftbfiltersystem loaded, skipping
+[13Sep2026 20:58:16.209] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source aaa_particles
+[13Sep2026 20:58:16.217] [modloading-worker-0/INFO] [KubeJS/]: Done in 56.15 ms
+[13Sep2026 20:58:16.280] [modloading-worker-0/INFO] [chloride/Main]: Chloride is not intended to be on servers, loaded in inner mode
+[13Sep2026 20:58:16.341] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/2b101225a0983c178c43c737d76def52
+[13Sep2026 20:58:16.347] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/878ba3ad853235668eff51eb0a40c900
+[13Sep2026 20:58:16.350] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/878ba3ad853235668eff51eb0a40c900
+[13Sep2026 20:58:16.351] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id aaa_particles:main/9b5bc39f00d53db2acf81d859b596583
+[13Sep2026 20:58:16.363] [modloading-worker-0/INFO] [almplaceholderfix/]: almplaceholderfix has loaded
+[13Sep2026 20:58:16.425] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[13Sep2026 20:58:16.427] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[13Sep2026 20:58:16.447] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:share_waypoint
+[13Sep2026 20:58:16.449] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[13Sep2026 20:58:16.466] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[13Sep2026 20:58:16.470] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[13Sep2026 20:58:16.477] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[13Sep2026 20:58:16.482] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[13Sep2026 20:58:16.485] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
+[13Sep2026 20:58:16.495] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Chunks] Enabled KubeJS integration
+[13Sep2026 20:58:16.510] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Sep2026 20:58:16.511] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Sep2026 20:58:16.556] [modloading-worker-0/INFO] [jujutsucraftfix/]: JujutsuCraftFix has loaded
+[13Sep2026 20:58:16.567] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: almirion_utilities, class com.almirionutilities.AlmirionUtilitiesMod
+java.lang.NoSuchMethodError: 'net.minecraft.resources.ResourceLocation net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(java.lang.String, java.lang.String)'
+	at com.almirionutilities.network.AlmirionUtilitiesNetwork.<clinit>(AlmirionUtilitiesNetwork.java:12) ~[almirion_utilities-1.0.1.jar%23192!/:1.0.1]
+	at com.almirionutilities.AlmirionUtilitiesMod.<init>(AlmirionUtilitiesMod.java:16) ~[almirion_utilities-1.0.1.jar%23192!/:1.0.1]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23283!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2026 20:58:16.579] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: slyrienjujutsu, class net.slyrien.jujutsu.SlyrienJujutsuMod
+java.lang.NoSuchMethodError: 'net.minecraft.resources.ResourceLocation net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(java.lang.String, java.lang.String)'
+	at net.slyrien.jujutsu.SlyrienJujutsuMod.<clinit>(SlyrienJujutsuMod.java:51) ~[slyrienjujutsu-1.0.jar%23267!/:1.0]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23283!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2026 20:58:16.629] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[13Sep2026 20:58:16.634] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[13Sep2026 20:58:16.658] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[13Sep2026 20:58:16.682] [modloading-worker-0/INFO] [com.stovetoptoad.jujutsuslop.JujutsuSlop/]: Jujutsu Slop initialising...
+[13Sep2026 20:58:16.807] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER
+[13Sep2026 20:58:16.807] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: slyrienmodern, class net.slyrienmodern.com.SlyrienModernMod
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3375) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3580) ~[?:?]
+	at java.lang.Class.getConstructor(Class.java:2273) ~[?:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.computeListenerList(EventListenerHelper.java:75) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.lambda$getListenerListInternal$0(EventListenerHelper.java:56) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:61) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.LockHelper.get(LockHelper.java:44) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.LockHelper.computeIfAbsent(LockHelper.java:39) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.getListenerListInternal(EventListenerHelper.java:56) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.api.EventListenerHelper.getListenerList(EventListenerHelper.java:50) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addToListeners(EventBus.java:276) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:252) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:244) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:199) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:193) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.addListener(EventBus.java:187) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.slyrienmodern.com.SlyrienModernMod.<init>(SlyrienModernMod.java:29) ~[modern_jujutsu-1.0.jar%23251!/:1.0]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23283!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2026 20:58:16.812] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[13Sep2026 20:58:16.812] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: geto_storage_fix, class com.example.examplemod.ExampleMod
+java.lang.NoSuchMethodException: com.example.examplemod.ExampleMod.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3587) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2756) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23283!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[13Sep2026 20:58:16.834] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[13Sep2026 20:58:16.835] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[13Sep2026 20:58:16.842] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[13Sep2026 20:58:16.844] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.210 s
+[13Sep2026 20:58:16.844] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[13Sep2026 20:58:16.844] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[13Sep2026 20:58:16.847] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[13Sep2026 20:58:16.848] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[13Sep2026 20:58:16.849] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[13Sep2026 20:58:16.850] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[13Sep2026 20:58:16.859] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[13Sep2026 20:58:16.869] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[13Sep2026 20:58:16.870] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:give_item_to_player
+[13Sep2026 20:58:16.872] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:reorder_item
+[13Sep2026 20:58:16.873] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[13Sep2026 20:58:16.877] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[13Sep2026 20:58:16.879] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[13Sep2026 20:58:16.880] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[13Sep2026 20:58:16.883] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[13Sep2026 20:58:16.885] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[13Sep2026 20:58:16.888] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[13Sep2026 20:58:16.891] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[13Sep2026 20:58:16.894] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[13Sep2026 20:58:16.898] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[13Sep2026 20:58:16.903] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[13Sep2026 20:58:16.905] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[13Sep2026 20:58:16.908] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[13Sep2026 20:58:17.084] [modloading-worker-0/INFO] [STDOUT/]: [net.clearlagplus.ClearLagExclusions:loadExclusions:35]: [ClearLag+] Exclusions chargées: []
+[13Sep2026 20:58:17.096] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[13Sep2026 20:58:17.148] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[13Sep2026 20:58:17.152] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[13Sep2026 20:58:17.542] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[13Sep2026 20:58:17.551] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.148 s
+[13Sep2026 20:58:17.562] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.707 s with 0 errors and 0 warnings
+[13Sep2026 20:58:17.628] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[13Sep2026 20:58:17.635] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[13Sep2026 20:58:18.418] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 5 errors found
+[13Sep2026 20:58:18.489] [main/INFO] [STDOUT/]: [net.minecraft.CrashReport:m_127516_:166]: Negative index in crash report handler (18/20)
+[13Sep2026 20:58:18.579] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 1a08159d-26da-44b3-83d4-9e719fff1607
+[13Sep2026 20:58:18.587] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2026-09-13_20.58.18-fml.txt
+[13Sep2026 20:58:18.606] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 8683efa3-160e-4685-9187-70e428e2ce9a
+[13Sep2026 20:58:18.645] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	AlmirionAPI (almirionapi) has failed to load correctly
+§7java.lang.NoSuchMethodException: com.jjcaddons.almirionapi.AlmirionApiMod.<init>(),
+	Almirion Utilities (almirion_utilities) has failed to load correctly
+§7java.lang.NoSuchMethodError: 'net.minecraft.resources.ResourceLocation net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(java.lang.String, java.lang.String)',
+	Slyrien's Jujutsu Addon (slyrienjujutsu) has failed to load correctly
+§7java.lang.NoSuchMethodError: 'net.minecraft.resources.ResourceLocation net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(java.lang.String, java.lang.String)',
+	Slyrien's Modern Jujutsu (slyrienmodern) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER,
+	Geto Storage Fix (geto_storage_fix) has failed to load correctly
+§7java.lang.NoSuchMethodException: com.example.examplemod.ExampleMod.<init>()
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23282!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23286!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]

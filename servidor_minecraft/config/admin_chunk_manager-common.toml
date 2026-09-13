@@ -1,0 +1,123 @@
+
+[general]
+	#Minimum OP permission level required to bypass admin claim protection (0-4)
+	#Range: 0 ~ 4
+	opPermissionLevel = 2
+	#Maximum radius for the /adminclaim radius command (in chunks)
+	#Range: 1 ~ 50
+	maxClaimRadius = 10
+
+[claimTypes]
+
+	#General admin claims - Admin team
+	[claimTypes.admin]
+		#Allow explosions to damage blocks
+		allowExplosions = false
+		#Allow mob griefing (endermen, creepers, etc.)
+		allowMobGriefing = false
+		#Allow player vs player combat
+		allowPvP = false
+		#Allow players to interact with blocks (doors, buttons, levers, chests, etc.)
+		allowBlockInteract = true
+		#Allow players to interact with entities (villagers, item frames, armor stands, etc.)
+		allowEntityInteract = true
+		#Allow players to break blocks
+		allowBlockBreak = false
+		#Allow players to place blocks
+		allowBlockPlace = false
+
+	[claimTypes.claimTypes]
+
+		#Server spawn area - Spawn team
+		[claimTypes.claimTypes.spawn]
+			#Allow explosions to damage blocks
+			allowExplosions = false
+			#Allow mob griefing (endermen, creepers, etc.)
+			allowMobGriefing = false
+			#Allow player vs player combat
+			allowPvP = false
+			#Allow players to interact with blocks (doors, buttons, levers, chests, etc.)
+			allowBlockInteract = true
+			#Allow players to interact with entities (villagers, item frames, armor stands, etc.)
+			allowEntityInteract = true
+			#Allow players to break blocks
+			allowBlockBreak = false
+			#Allow players to place blocks
+			allowBlockPlace = false
+
+		[claimTypes.claimTypes.claimTypes]
+
+			#Server shops - Shop team
+			[claimTypes.claimTypes.claimTypes.shop]
+				#Allow explosions to damage blocks
+				allowExplosions = false
+				#Allow mob griefing (endermen, creepers, etc.)
+				allowMobGriefing = false
+				#Allow player vs player combat
+				allowPvP = false
+				#Allow players to interact with blocks (doors, buttons, levers, chests, etc.)
+				allowBlockInteract = true
+				#Allow players to interact with entities (villagers, item frames, armor stands, etc.)
+				allowEntityInteract = true
+				#Allow players to break blocks
+				allowBlockBreak = false
+				#Allow players to place blocks
+				allowBlockPlace = false
+
+			[claimTypes.claimTypes.claimTypes.claimTypes]
+
+				#Event areas - Event team
+				[claimTypes.claimTypes.claimTypes.claimTypes.event]
+					#Allow explosions to damage blocks
+					allowExplosions = false
+					#Allow mob griefing (endermen, creepers, etc.)
+					allowMobGriefing = false
+					#Allow player vs player combat
+					allowPvP = true
+					#Allow players to interact with blocks (doors, buttons, levers, chests, etc.)
+					allowBlockInteract = true
+					#Allow players to interact with entities (villagers, item frames, armor stands, etc.)
+					allowEntityInteract = true
+					#Allow players to break blocks
+					allowBlockBreak = false
+					#Allow players to place blocks
+					allowBlockPlace = false
+
+				[claimTypes.claimTypes.claimTypes.claimTypes.claimTypes]
+
+					#Staff-only areas - Staff team
+					[claimTypes.claimTypes.claimTypes.claimTypes.claimTypes.staff]
+						#Allow explosions to damage blocks
+						allowExplosions = false
+						#Allow mob griefing (endermen, creepers, etc.)
+						allowMobGriefing = false
+						#Allow player vs player combat
+						allowPvP = false
+						#Allow players to interact with blocks (doors, buttons, levers, chests, etc.)
+						allowBlockInteract = false
+						#Allow players to interact with entities (villagers, item frames, armor stands, etc.)
+						allowEntityInteract = false
+						#Allow players to break blocks
+						allowBlockBreak = false
+						#Allow players to place blocks
+						allowBlockPlace = false
+
+					[claimTypes.claimTypes.claimTypes.claimTypes.claimTypes.claimTypes]
+
+						#Public builds - Public team
+						[claimTypes.claimTypes.claimTypes.claimTypes.claimTypes.claimTypes.public]
+							#Allow explosions to damage blocks
+							allowExplosions = false
+							#Allow mob griefing (endermen, creepers, etc.)
+							allowMobGriefing = false
+							#Allow player vs player combat
+							allowPvP = false
+							#Allow players to interact with blocks (doors, buttons, levers, chests, etc.)
+							allowBlockInteract = true
+							#Allow players to interact with entities (villagers, item frames, armor stands, etc.)
+							allowEntityInteract = true
+							#Allow players to break blocks
+							allowBlockBreak = false
+							#Allow players to place blocks
+							allowBlockPlace = false
+

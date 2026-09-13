@@ -1,0 +1,17 @@
+{
+  "misc": {
+    "blackFlashBaseChance": 0.2,
+    "sixEyesCeReductionBase": 0.5,
+    "sukunaFingerCePerFinger": 250.0,
+    "sukunaFingerCostMultiplier": 0.2,
+    "mahoragaAdaptationDamageReduction": 75.0,
+    "simpleDomainActivationCost": 50.0,
+    "simpleDomainDuration": 120.0,
+    "domainAmplificationActivationCost": 0.0,
+    "domainAmplificationActiveCost": 10.0,
+    "domainExpansionActiveCost": 20.0,
+    "reverseCursedTechniqueCost": 10.0,
+    "reverseCursedTechniqueFatigueRate": 5.0,
+    "standardAbilityCePerTick": 2.0
+  }
+}

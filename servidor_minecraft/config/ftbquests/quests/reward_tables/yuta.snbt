@@ -1,0 +1,26 @@
+{
+	id: "0F0E531B6816989E"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "jujutsucrafts:ring_okkotsu"
+				tag: {
+					CursePower: 10.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jujutsucrafts:jacobs_trumpet"
+				tag: {
+					CursePower: 10.0d
+				}
+			}
+		}
+	]
+	title: "yuta"
+}

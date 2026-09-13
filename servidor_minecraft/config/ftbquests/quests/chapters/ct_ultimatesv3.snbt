@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ct_ultimatesv3"
+	group: ""
+	id: "7F632E9CBFB7EE77"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"La luz solo sirve para proyectar tus verdaderas armas. Domina el flujo de las sombras para almacenar tu arsenal en la oscuridad, convoca la lealtad de tus shikigamis en el momento indicado y no dudes en derramar tu propia energía cuando la batalla exija romper las reglas. Reúne los talismanes para tus rituales, expande un Jardín de la Quimera incompleto pero devastador y demuestra que estás dispuesto a imaginarse una versión más fuerte de ti mismo en lugar de morir en vano. Y si el destino te acorrala, siempre queda la última carta en el abismo: hacer sonar la rueda, convocar al General Divino y arrastrar a cualquiera contigo a la perdición."
+				""
+				"{image:jujutsucraft:item/icon_mahoragawheel width:50 height:50 align:center}"
+			]
+			id: "53E583A129C8F3B7"
+			rewards: [
+				{
+					id: "1CA5CEE1A4723D86"
+					item: {
+						Count: 1
+						id: "slyrienjujutsu:transcendence_gear_helmet"
+						tag: {
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37BDE43634A0E847"
+					item: "jjsh:water_walking"
+					type: "item"
+				}
+				{
+					id: "26BE2228F546CB2B"
+					item: "jjsh:air_jump"
+					type: "item"
+				}
+			]
+			subtitle: "Sumérgete en el fluido negro, invoca a tus shikigamis y libera un potencial sin límites."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_ten_shadows_technique"
+					criterion: ""
+					id: "13139679214D37CB"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:skill_mahoraga"
+					criterion: ""
+					id: "34643B3988488CA1"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_1_semi"
+					criterion: ""
+					id: "3F0F26D36FAEF638"
+					type: "advancement"
+				}
+			]
+			title: "Abismo de Sombras: Diez Reliquias"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Rika ascendió, pero su devoción se quedó contigo para convertirse en el contenedor de un arsenal incalculable. Ajusta el anillo a tu dedo, activa la manifestación completa por cinco minutos y despliega un Dominio cubierto por un cementerio de katanas, cada una cargada con un ritual copiado. Ya no eres el novato asustado del colegio técnico; ahora eres el pilar que sostiene el destino frente al Rey de las Maldiciones. Empuña la Ruptura de Hielo Fino, desata la Escalera de Jacob o corta a Sukuna utilizando la mismísima técnica que le arrebataste. Reúne tus katanas, mantén el ritmo de combate codo a codo con tu shikigami y demuestra por qué te consideran el heredero incontestable del más fuerte."
+				"{image:jujutsucrafts:item/rikafication width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:jacobs_trumpet"
+				tag: {
+					CursePower: 10.0d
+				}
+			}
+			id: "56B5FF9710AE8A66"
+			rewards: [
+				{
+					advancement: "jujutsucraft:skill_rika_control"
+					criterion: ""
+					id: "278D6DAB90E48F5F"
+					type: "advancement"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "446D63F2A6693B20"
+					table_id: 1084895937418401950L
+					type: "choice"
+				}
+				{
+					id: "2DABBD6925DB422F"
+					item: "bindingvow:ce_bank"
+					type: "item"
+				}
+			]
+			subtitle: "Poneos el anillo, manifiesta la cáscara de Rika por cinco minutos y reclama el campo de batalla."
+			tasks: [
+				{
+					advancement: "jujutsucraft:skill_copy"
+					criterion: ""
+					id: "1867313EB126D65B"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2"
+					criterion: ""
+					id: "5D1F967146764D1A"
+					type: "advancement"
+				}
+			]
+			title: "Amor Mutuo Auténtico: El Banquete de Copias"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Dejar atrás la reclusión del Gokumonkyo fue solo el calentamiento; el verdadero espectáculo empieza en Shinjuku frente al Rey de las Maldiciones. En este duelo final, las reglas de la hechicería se reescriben en cada segundo: destruye y sana tu propio cerebro para reiniciar tu técnica, comprime el Vacío Ilimitado al tamaño de una esfera perfecta y lleva el espacio-tiempo al límite con Destellos Negros. Reúne el poder necesario para condensar un Púrpura improvisado a máxima potencia que reduzca todo a cenizas y demuestra que, sin importar las trampas de la historia... vas a ganar."
+				"{image:jujutsucraft:textures/mob_effect/six_eyes.png width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bindingvow:textures/particle/space_ripper_stingy_eyes_particle.png"
+				}
+			}
+			id: "52697195DA1D1BC7"
+			rewards: [
+				{
+					id: "0B6E2343B18E461A"
+					item: "jujutsucraft:item_master_six_eyes"
+					type: "item"
+				}
+				{
+					id: "51EB685CF8529F05"
+					item: "jujutsucraft:item_master_domain_expansion"
+					type: "item"
+				}
+				{
+					id: "0D11B8F839539C6A"
+					item: "jujutsucraft:item_master_domain_amplification"
+					type: "item"
+				}
+				{
+					id: "12D0BB8C31E12ACC"
+					item: "jujutsucraft:item_master_reverse_cursed_technique"
+					type: "item"
+				}
+				{
+					id: "592C5805B88835A2"
+					item: "bindingvow:black_flash_combos"
+					type: "item"
+				}
+				{
+					id: "49F6D57F1EBE5372"
+					item: {
+						Count: 1
+						id: "bindingvow:domain_expapansion_02"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rompe las cadenas del Gokumonkyo, comprime el espacio y desata un Púrpura al 200%."
+			tasks: [
+				{
+					advancement: "jujutsucraft:sorcerer_grade_1"
+					criterion: ""
+					id: "4BA14940EBE6F1F6"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:skill_gojo"
+					criterion: ""
+					id: "1F309DE814CCC59B"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:skill_hollow_technique_purple"
+					criterion: ""
+					id: "091F3207F3E7461E"
+					type: "advancement"
+				}
+				{
+					entity: "jujutsucraft:sukuna"
+					id: "1EE3FFC0E148BFFB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Choque de los Más Fuertes: Liberado"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Tomar el recipiente de las sombras fue solo el comienzo. Haz girar la rueda de Mahoraga para adaptarte a cada técnica enemiga hasta perfeccionar el corte que parte la existencia misma. Cuando la carne mortal no sea suficiente, rompe las cadenas y encarna tu verdadera fisonomía ancestral: cuatro brazos para sostener cánticos e hilar mudras sin descanso, y dos rostros para contemplar la ruina de quien intente desafiarte. Reúne las reliquias de tu era, desata el fuego de Fuga sobre los incautos y demuestra que para el Rey de las Maldiciones todo lo demás es simple ganado esperando ser sacrificado"
+				"{image:jujutsucraft:item/icon_mahoraga_head width:50 height:50 align:center}"
+			]
+			icon: "jujutsucrafts:cape_sukuna_chestplate"
+			id: "4C087F01CB8B8FB0"
+			rewards: [
+				{
+					id: "4E1EE2C87F1E765C"
+					item: "bindingvow:enchain"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6BD96833FEE5861A"
+					item: {
+						Count: 1
+						id: "jujutsucraft:sukuna_finger"
+						tag: {
+							CursePower: 5.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52C17C2853EEA7B8"
+					item: "bindingvow:brain_recovery"
+					type: "item"
+				}
+				{
+					advancement: "jujutsucraft:skill_dismantle_cut_the_world"
+					criterion: ""
+					id: "235E69AE3F5487D5"
+					type: "advancement"
+				}
+			]
+			subtitle: "Gira la rueda de la adaptación, descuartiza el espacio y encarna la anatomía divina de Heian."
+			tasks: [
+				{
+					advancement: "jujutsucraft:sorcerer_grade_special"
+					criterion: ""
+					id: "20084C8A3F620244"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:skill_sukuna"
+					criterion: ""
+					id: "67B99308B15B1656"
+					type: "advancement"
+				}
+			]
+			title: "La Forma Perfecta del Rey"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Para los ojos de los clanes sagrados no eres más que un fantasma invisible, pero tus sentidos sobrehumanos y tu fuerza física absoluta superan cualquier barrera o técnica heredada. Oculta tu arsenal dentro de la maldición inventario, desenfunda la Lanza Invertida para anular el ritual de tus objetivos y rompe el orgullo de quienes se creen intocables a pura velocidad. Reúne las herramientas malditas de tu arsenal y cobra la recompensa tras demostrar que un simple \"mono sin magia\" puede hacer sangrar al mismísimo cielo."
+				"{image:jujutsucraftv:item/cursedspirit_armoury_icon width:50 height:50 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:inverted_spear_of_heaven"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Knockback: -0.25d
+					Power: 0.1d
+					Reach: -0.125d
+				}
+			}
+			id: "33D3E15E6B9FED4E"
+			rewards: [
+				{
+					id: "436F5E87B9207A59"
+					item: "jujutsucrafts:glock"
+					type: "item"
+				}
+				{
+					id: "0290C83FD83FBC66"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:complete_inspote_spear_of_heaven"
+						tag: {
+							CursePower: 10.0d
+							Power: 0.25d
+							Range: 0.25d
+							Reach: 0.25d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F2AD1B6097D8659"
+					item: "jjsh:air_jump"
+					type: "item"
+				}
+			]
+			subtitle: "Sin una sola gota de energía maldita, conviértete en la peor pesadilla de los hechiceros."
+			tasks: [
+				{
+					advancement: "jujutsucraft:completely_physically_gifted"
+					criterion: ""
+					id: "359A25979CE95E2F"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "25A4D27060822AFE"
+					type: "advancement"
+				}
+			]
+			title: "El Asesino de Chamanes"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Un verdadero erudito no se limita a una sola vida ni a las reglas de una época. Mueve las piezas tras bambalinas, toma el control de los recipientes indicados y utiliza la Manipulación de Maldiciones como un mero peldaño para tu verdadero experimento: optimizar la energía maldita a escala global. Reúne los catalizadores para tus rituales, orquesta el caos de los Juegos de Selección y absorbe a las entidades más antiguas para acelerar la fusión. Al final, no importa cuánta sangre se derrame ni cuántos siglos tome; el mundo entero bailará al ritmo que marcaste en tu frente."
+				"{image:jujutsucrafts:item/brain_kenjaku width:50 height:50 align:center}"
+			]
+			icon: "bindingvow:brain_recovery"
+			id: "0064E0E955C0696F"
+			rewards: [
+				{
+					id: "699C77B319CB4B2A"
+					item: "jujutsucrafts:kogane"
+					type: "item"
+				}
+				{
+					id: "78AD319266E0B25E"
+					item: "jujutsucrafts:item_tengen"
+					type: "item"
+				}
+				{
+					id: "0CF60B48B6C8CD7B"
+					item: {
+						Count: 1
+						id: "jujutsucrafts:kenjaku_needle_helmet"
+						tag: {
+							CursePower: 7.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E860640960B7C7"
+					item: "jujutsucrafts:clothes_kamo_chestplate"
+					type: "item"
+				}
+				{
+					id: "4D708624802BD106"
+					item: "jujutsucrafts:clothes_kamo_leggings"
+					type: "item"
+				}
+				{
+					id: "2DA687E18C6E9177"
+					item: "bindingvow:brain_recovery"
+					type: "item"
+				}
+				{
+					id: "23C3DB989A69AE20"
+					item: "jujutsucraft:geto_suguru_curse_user_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "ambia de recipiente, orquesta el Juego de Selección y fuerza la evolución de la humanidad."
+			tasks: [
+				{
+					advancement: "jujutsucraft:sorcerer_grade_2_semi"
+					criterion: ""
+					id: "7E135D840F702684"
+					type: "advancement"
+				}
+				{
+					advancement: "jujutsucrafts:skill_kenjaku"
+					criterion: ""
+					id: "54AE1152A62C7A8D"
+					type: "advancement"
+				}
+			]
+			title: "El Arquitecto del Caos: Plan de Mil Años"
+			x: -1.5d
+			y: -1.5d
+		}
+	]
+	title: "ct ultimates/v3"
+}

@@ -1,0 +1,28 @@
+{
+	id: "77DE7545F7CCF71D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "slyrienjujutsu:trait_vessel"
+				tag: {
+					StoredTrait: "Fallen"
+				}
+			}
+			title: "fallen"
+		}
+		{
+			item: {
+				Count: 1
+				id: "slyrienjujutsu:trait_vessel"
+				tag: {
+					StoredTrait: "Angel"
+				}
+			}
+			title: "angel"
+		}
+	]
+	title: "passivas"
+}

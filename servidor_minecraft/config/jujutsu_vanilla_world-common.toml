@@ -1,0 +1,4 @@
+#When true, Jujutsu Craft buildings (school, villages, etc.) can generate in the overworld.
+#When false, those structures are disabled. Requires a new world or unexplored chunks to take full effect.
+enableJujutsuStructures = true
+

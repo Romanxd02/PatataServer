@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas"
+	group: ""
+	id: "4A0D7CE42B787C42"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:heaven_point_blade_extended"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "132F87CA4EE090C4"
+			rewards: [{
+				id: "7B75710B6F0B8390"
+				item: {
+					Count: 1
+					id: "jujutsucrafts:heaven_point_blade_extended"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3A38B87B7E21F890"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:yatano_kagami"
+				tag: {
+					CursePower: 10.0d
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "39C9E333098CC5A2"
+			rewards: [{
+				id: "3C43BB7E3FFA95D4"
+				item: {
+					Count: 1
+					id: "jujutsucrafts:yatano_kagami"
+					tag: {
+						CursePower: 10.0d
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3D2344713BB54E6B"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucraft:inverted_spear_of_heaven"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Knockback: -0.25d
+					Power: 0.1d
+					Reach: -0.125d
+				}
+			}
+			id: "57EB6054A585D525"
+			rewards: [{
+				id: "352D80F0EBB74194"
+				item: {
+					Count: 1
+					id: "jujutsucraft:inverted_spear_of_heaven"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "464F48718F50D082"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucraft:split_soul_katana"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "325BA2699C764D5C"
+			rewards: [{
+				id: "2864E0ACA02A5F27"
+				item: {
+					Count: 1
+					id: "jujutsucraft:split_soul_katana"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "14649BB417B63E44"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucraft:supreme_martial_solution"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Knockback: -0.25d
+					Power: 0.1d
+					Reach: -0.125d
+				}
+			}
+			id: "7FBDE6F042A659ED"
+			rewards: [{
+				id: "2206FEFA8AC84003"
+				item: {
+					Count: 1
+					id: "jujutsucraft:supreme_martial_solution"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "5CD8570E4CED9DB8"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucraft:hiten"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "4CB65785BC923890"
+			rewards: [{
+				id: "6E510873F85D928C"
+				item: {
+					Count: 1
+					id: "jujutsucraft:hiten"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6C77E7CF76BCD1C9"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucraft:playful_cloud"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					GeckoLibID: 2L
+					slash_color: "slash_red"
+				}
+			}
+			id: "6AFBECEEFEBF9A04"
+			rewards: [{
+				id: "4969228E6572146E"
+				item: {
+					Count: 1
+					id: "jujutsucraft:playful_cloud"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						GeckoLibID: 2L
+						slash_color: "slash_red"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6C1A8B4C2EBFD827"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucraft:black_rope"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					GeckoLibID: 3L
+					color1: "0.1364697318081472 0.1364697318081472 0.1364697318081472 1"
+					color2: "0.1364697318081472 0.1364697318081472 0.1364697318081472 1"
+					slash_color: "slash_black"
+				}
+			}
+			id: "58868069A81EF862"
+			rewards: [{
+				id: "646F4AC1492986D8"
+				item: {
+					Count: 1
+					id: "jujutsucraft:black_rope"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						GeckoLibID: 3L
+						color1: "0.01483183903552223 0.01483183903552223 0.01483183903552223 1"
+						color2: "0.01483183903552223 0.01483183903552223 0.01483183903552223 1"
+						slash_color: "slash_black"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "613AFEB8F0C92DD0"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "jujutsucrafts:gods_cloud_sword"
+				tag: {
+					CursePower: 10.0d
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "64C2859E1470CBD2"
+			rewards: [{
+				id: "21AEC58EC2745EFC"
+				item: {
+					Count: 1
+					id: "jujutsucrafts:gods_cloud_sword"
+					tag: {
+						CursePower: 10.0d
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0D10D0AC25045EB7"
+				item: {
+					Count: 5
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "Armas"
+}
